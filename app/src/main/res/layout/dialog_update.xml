@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:background="#afffffff"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="Cập nhật công việc"
+            android:textColor="#0f2620"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/usernameWrapper"
+            android:layout_width="match_parent"
+            app:hintEnabled="true"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edittextCvUpdate"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Nội Dung"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            app:hintEnabled="true"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edittextSoTienUpdate"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Số Tiền"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edittextTheLoaiUpdate"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Thể Loại"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edittextGhiChuUpdate"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Ghi Chú"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edittextNhapNgayUpdate"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:hint="Nhập ngày"
+                />
+        </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btnDate"
+        android:textColor="#f7f7f7"
+        android:background="#9af7143a"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-5dp"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="get Date"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật" />
+
+        <Button
+            android:id="@+id/btnHuyUpdate"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnUpdate"
+            android:text="Hủy"
+            />
+    </LinearLayout>
+
+    </LinearLayout>

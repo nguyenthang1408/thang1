@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/br_dialog_them"
+    >
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usernameWrapper"
+        android:layout_width="match_parent"
+        app:hintEnabled="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtTen"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Nội Dung"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usernameWrapper2"
+        android:layout_width="match_parent"
+        app:hintEnabled="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtSoTien"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Số Tiền"
+            android:text="0"
+            />
+    </android.support.design.widget.TextInputLayout>
+       <android.support.design.widget.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp">
+           <android.support.design.widget.TextInputEditText
+           android:id="@+id/txtTheLoai"
+           android:textSize="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Nhập Thể Loại"
+           />
+       </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtGhiChu"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Ghi Chú"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtNgay"
+                android:textSize="20dp"
+                android:hint="Nhập ngày"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btnDate"
+        android:textColor="#f7f7f7"
+        android:background="#9af7143a"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-5dp"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="get Date"/>
+    <!--<EditText-->
+        <!--android:id="@+id/txtTen"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Nhập Tên"/>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy"/>
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Thêm"/>
+    </LinearLayout>
+
+
+</LinearLayout>
